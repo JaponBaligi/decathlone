@@ -1,0 +1,25 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.env
+.env.local
+client/dist/
+.vscode/
+.idea/
+.cursor/
+*.tmp
+
+# SQLite runtime sidecars (DB itself tracked via Git LFS)
+*.sqlite-wal
+*.sqlite-shm
+
+# Local scrape / CDP leftovers
+_cdp_chunk_*.json
+scrape-batch-*.json
+server/scripts/_tmp/
+server/scripts/_b64*
+server/scripts/_cdp_*
+server/scripts/_chunk_*
+server/scripts/_expr*
+server/scripts/_inject*

@@ -1,0 +1,4 @@
+*.sqlite filter=lfs diff=lfs merge=lfs -text
+server/src/db/deals-products.json filter=lfs diff=lfs merge=lfs -text
+server/src/db/tum-urunler-checkpoint.json filter=lfs diff=lfs merge=lfs -text
+*.woff2 filter=lfs diff=lfs merge=lfs -text
